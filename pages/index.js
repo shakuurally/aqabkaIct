@@ -4,15 +4,20 @@ import Hero from "../components/Hero";
 import Layout from "../components/Layout/Layout";
 import SeoHead from "../components/SeoHead";
 
-export default function Home() {
+function Home() {
   return (
     <>
-      <SeoHead title='LaslesVPN Landing Page' />
+      <SeoHead title='Aqabka ict' />
+      <Hero />
+      <Feature />
+      <Pricing />
+
       <Layout>
-        <Hero />
-        <Feature />
-        <Pricing />
+      
       </Layout>
+      hi
     </>
   );
 }
+
+export default Home

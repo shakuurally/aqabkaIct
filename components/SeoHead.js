@@ -1,7 +1,6 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
 
-
 // Default value for some meta data
 const defaultMeta = {
   title: 'LaslesVPN',
@@ -35,7 +34,7 @@ const defaultMeta = {
  * @example
  * <SeoHead title="Page's Title" />
  */
-const SeoHead = (props) => {
+ export default function SeoHead  (props) {
   const router = useRouter();
   const meta = {
     ...defaultMeta,
@@ -184,4 +183,3 @@ const favicons = [
   },
 ];
 
-export default SeoHead;

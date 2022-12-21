@@ -112,7 +112,10 @@ export default function Testimoni  ({
                 <div className="flex flex-none items-center ml-auto order-1 xl:order-2">
                   <p className="text-sm">{listTestimonis.rating}</p>
                   <span className="flex ml-4">
-                    <Image src={Stars}  className="h-4 w-4 " />
+                    <Image src={Stars}   
+                    height={50}
+                    width={50}
+                    alt="Icon "  className="h-4 w-4 " />
 
                   </span>
                 </div>
@@ -128,13 +131,20 @@ export default function Testimoni  ({
             className="mx-4 flex items-center justify-center h-14 w-14 rounded-full bg-white border-orange-500 border hover:bg-orange-500 hover:text-white-500 transition-all text-orange-500 cursor-pointer"
             onClick={sliderRef?.slickPrev}
           >
-            <Image src={ArrowBack}  className="h-6 w-6 " />
+            <Image src={ArrowBack}  
+            height={50}
+                    width={50}
+                    alt="Icon "   className="h-6 w-6 " />
           </div>
           <div
             className="flex items-center justify-center h-14 w-14 rounded-full bg-white border-orange-500 border hover:bg-orange-500 hover:text-white-500 transition-all text-orange-500 cursor-pointer"
             onClick={sliderRef?.slickNext}
           >
-            <Image src={ArrowNext}  className="h-6 w-6 " />
+            <Image src={ArrowNext}  
+             height={50}
+             width={50}
+             alt="Icon "  
+            className="h-6 w-6 " />
 
           </div>
         </div>

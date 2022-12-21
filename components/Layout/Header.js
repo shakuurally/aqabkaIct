@@ -83,7 +83,9 @@ const Header = () => {
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
              
 
-            <ButtonOutline>Call Us</ButtonOutline>
+            <ButtonOutline>
+            <a href="tel:+252616771010">Call Us</a>
+              </ButtonOutline>
           </div>
         </nav>
       </header>

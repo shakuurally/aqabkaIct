@@ -28,6 +28,8 @@ const Feature = () => {
               layout="responsive"
               quality={100}
               height={414}
+              loading="lazy"
+
               width={508}
             />
           </motion.div>

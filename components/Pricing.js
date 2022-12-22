@@ -51,6 +51,8 @@ const Pricing = () => {
                     width={145}
                     height={165}
                     alt="Free Plan"
+                    loading="lazy"
+
                   />
                 </div>
                 <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
@@ -95,6 +97,8 @@ const Pricing = () => {
                   width={145}
                   height={165}
                   alt="Standard Plan"
+                  loading="lazy"
+
                 />
               </div>
               <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
@@ -142,6 +146,8 @@ const Pricing = () => {
                   width={145}
                   height={165}
                   alt="Premium Plan"
+                  loading="lazy"
+
                 />
               </div>
               <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">

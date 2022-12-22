@@ -5,11 +5,15 @@ import getScrollAnimation from "../../utils/getScrollAnimation";
 import Image from "next/image";
 import Notary from '../../public/assets/Notary.png'
 import School from '../../public/assets/Schoolsystem.png'
+import SeoHead from "../../components/SeoHead";
 function index() {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
   return (
-    <ScrollAnimationWrapper>
+    <>
+          <SeoHead title='Projects aqabkaict' />
+
+       <ScrollAnimationWrapper>
       <motion.div
         class="bg-white mt-36"
         id="ourWork"
@@ -34,6 +38,8 @@ function index() {
                   layout="responsive"
               quality={100}
               height={360}
+              loading="lazy"
+
               width={460}
                   alt="Person using a pen to cross a task off a productivity paper card."
                   class=" w-full hover:scale-125	 transition-all duration-500 ease-in-out transform  object-cover object-center group-hover:opacity-75"
@@ -55,6 +61,8 @@ function index() {
                  quality={100}
                  height={360}
                  width={460}
+                 loading="lazy"
+
                  alt="Person using a pen to cross a task off a productivity paper card."
                  class="h-full w-full hover:scale-125	 transition-all duration-500 ease-in-out transform  object-cover object-center group-hover:opacity-75"
                  /> 
@@ -70,6 +78,8 @@ function index() {
         </div>
       </motion.div>
     </ScrollAnimationWrapper>
+    </>
+ 
   );
 }
 

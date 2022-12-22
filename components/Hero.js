@@ -53,6 +53,8 @@ const Hero = ({
                   quality={100}
                   width={612}
                   height={383}
+                  priority
+                  loading="lazy"
                   layout="responsive"
                 />
               </motion.div>
@@ -66,7 +68,6 @@ const Hero = ({
             <motion.div
               className="flex items-center justify-start sm:justify-center py-4 sm:py-6 w-8/12 px-4 sm:w-auto mx-auto sm:mx-0"
               key={index}
-              custom={{duration: 2 + index}}
               variants={scrollAnimation}
             >
               <div className="flex mx-auto w-40 sm:w-auto">

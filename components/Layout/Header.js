@@ -33,7 +33,8 @@ const Header = () => {
                   
                 >
                   <Image src={LogoVPN}  width={145}
-                    height={50} className="h-3 w-4" />
+                    height={50} className="h-3 w-4"   loading="lazy"
+                    />
                 </Link>
                 <div className="md:hidden">
                   <button

@@ -124,7 +124,7 @@ const Header = () => {
                      Products
                     </a>
                   </Link> 
-                  <Link
+                  {/* <Link
                     activeClass="active"
                     href="ourWork"
                     spy={true}
@@ -144,7 +144,7 @@ const Header = () => {
                     >
                      Courses
                     </a>
-                  </Link> 
+                  </Link>  */}
                   
                 </li>
                 <div  className=" md:hidden">

@@ -37,10 +37,12 @@ const Hero = ({
             variants={scrollAnimation}>
             <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
               <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
-             You run the company we Manage the <strong>Finance</strong>.
+              your satisfication is our ultimate .
+              <strong>Finance</strong>.
               </h1>
               <p className="text-black-500 mt-4 mb-6">
-                your satisfication is our ultimate Goal🖥.
+              
+             You run the business we Manage the company
               </p>
               <ButtonPrimary>Get Started</ButtonPrimary>
             </div>

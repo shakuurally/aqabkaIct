@@ -53,7 +53,6 @@ const Hero = ({
                   quality={100}
                   width={612}
                   height={383}
-                  priority
                   loading="lazy"
                   layout="responsive"
                 />

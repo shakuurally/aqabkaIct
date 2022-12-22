@@ -5,12 +5,13 @@ import { Link as LinkScroll } from "react-scroll";
 import ButtonOutline from "../misc/ButtonOutline.";
 import LogoVPN from "../../public/assets/Logo.svg";
 import Image from "next/image";
-import Router from "next/router";
+import Router, { useRouter } from "next/router";
 const Header = () => {
   const [activeLink, setActiveLink] = useState(null);
   const [scrollActive, setScrollActive] = useState(false);
   const [navbar, setNavbar] = useState(false);
-
+  const router = useRouter();
+  const currentRoute = router.pathname; 
   useEffect(() => {
     window.addEventListener("scroll", () => {
       setScrollActive(window.scrollY > 20);
@@ -94,7 +95,7 @@ const Header = () => {
                     <a
                       className={
                         "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                        (activeLink === "ourWork"
+                        (currentRoute === "/"
                           ? " text-orange-500 animation-active "
                           : " text-black-500 hover:text-orange-500 ")
                       }
@@ -115,7 +116,7 @@ const Header = () => {
                     <a
                       className={
                         "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                        (activeLink === "ourWork"
+                        (currentRoute === "/ourWork"
                           ? " text-orange-500 animation-active "
                           : " text-black-500 hover:text-orange-500 ")
                       }
@@ -123,6 +124,28 @@ const Header = () => {
                      Products
                     </a>
                   </Link> 
+                  <Link
+                    activeClass="active"
+                    href="ourWork"
+                    spy={true}
+                    smooth={true}
+                    duration={1000}
+                    onSetActive={() => {
+                      setActiveLink("ourWork");
+                    }}
+                  >
+                    <a
+                      className={
+                        "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
+                        (currentRoute === "/Courses"
+                          ? " text-orange-500 animation-active "
+                          : " text-black-500 hover:text-orange-500 ")
+                      }
+                    >
+                     Courses
+                    </a>
+                  </Link> 
+                  
                 </li>
                 <div  className=" md:hidden">
                     <ButtonOutline>

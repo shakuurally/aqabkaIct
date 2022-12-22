@@ -18,6 +18,10 @@ const Pricing = () => {
     >
       <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
         <div className="flex flex-col w-full">
+
+        <ScrollAnimationWrapper className="w-full flex flex-col py-12">
+              <Testimoni />
+          </ScrollAnimationWrapper>
           <ScrollAnimationWrapper>
             <motion.h3
               variants={scrollAnimation}
@@ -216,6 +220,7 @@ const Pricing = () => {
               />
             </motion.div>
           </ScrollAnimationWrapper>
+
         </div> 
       </div>
     </div>

@@ -84,13 +84,7 @@ const Header = () => {
                 <li className="text-gray-600 hover:text-blue-600">
                   <Link
                     activeClass="active"
-                    href="/"
-                    spy={true}
-                    smooth={true}
-                    duration={1000}
-                    onSetActive={() => {
-                      setActiveLink("ourWork");
-                    }}
+                    href="/" 
                   >
                     <a
                       className={
@@ -105,13 +99,7 @@ const Header = () => {
                   </Link> 
                   <Link
                     activeClass="active"
-                    href="ourWork"
-                    spy={true}
-                    smooth={true}
-                    duration={1000}
-                    onSetActive={() => {
-                      setActiveLink("ourWork");
-                    }}
+                    href="ourWork" 
                   >
                     <a
                       className={
@@ -124,35 +112,12 @@ const Header = () => {
                      Products
                     </a>
                   </Link> 
-                  {/* <Link
-                    activeClass="active"
-                    href="shop"
-                    spy={true}
-                    smooth={true}
-                    duration={1000}
-                    onSetActive={() => {
-                      setActiveLink("shop");
-                    }}
-                  >
-                    <a
-                      className={
-                        "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                        (currentRoute === "/shop"
-                          ? " text-orange-500 animation-active "
-                          : " text-black-500 hover:text-orange-500 ")
-                      }
-                    >
-                     Shop
-                    </a>
-                  </Link>  */}
-                  
                 </li>
                 <div  className=" md:hidden">
                     <ButtonOutline>
                 <a href="tel:+252616771010">Call Us</a>
               </ButtonOutline>
                 </div>
-              
               </ul>
             </div>
             <div>

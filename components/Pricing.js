@@ -60,27 +60,31 @@ const Pricing = () => {
                   />
                 </div>
                 <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                  Free Plan
+                  6 Month Plan
                 </p>
                 <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                   <li className="relative check custom-list my-2">
-                    Unlimited Bandwitch
+                    Support
                   </li>
                   <li className="relative check custom-list my-2">
-                    Encrypted Connection
+                   Daily buckup
                   </li>
                   <li className="relative check custom-list my-2">
-                    No Traffic Logs
+                    works online an offline
                   </li>
                   <li className="relative check custom-list my-2">
                     Works on All Devices
                   </li>
+                  <li className="relative check custom-list my-2">
+                  Get New Features                   </li>
                 </ul>
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                   <p className="text-2xl text-black-600 text-center mb-4 ">
-                    Free
+                    299/ 6 month
                   </p>
+                  <a aria-label="Chat on WhatsApp" href="https://wa.me/616771010">
                   <ButtonOutline>Select</ButtonOutline>
+                  </a>
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -106,30 +110,31 @@ const Pricing = () => {
                 />
               </div>
               <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                Standard Plan{" "}
+                Yearly plan
               </p>
               <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
-                <li className="relative check custom-list my-2">
-                  Unlimited Bandwitch
-                </li>
-                <li className="relative check custom-list my-2">
-                  Encrypted Connection
-                </li>
-                <li className="relative check custom-list my-2">
-                  No Traffic Logs
-                </li>
-                <li className="relative check custom-list my-2">
-                  Works on All Devices
-                </li>
-                <li className="relative check custom-list my-2">
-                  Connect Anyware{" "}
-                </li>
+              <li className="relative check custom-list my-2">
+                    Support
+                  </li>
+                  <li className="relative check custom-list my-2">
+                   Daily buckup
+                  </li>
+                  <li className="relative check custom-list my-2">
+                    works online an offline
+                  </li>
+                  <li className="relative check custom-list my-2">
+                    Works on All Devices
+                  </li>
+                  <li className="relative check custom-list my-2">
+                  Get New Features                   </li>
               </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                 <p className="text-2xl text-black-600 text-center mb-4 ">
-                  $9 <span className="text-black-500">/ mo</span>
+                  $299 <span className="text-black-500">/ mo</span>
                 </p>
+                <a aria-label="Chat on WhatsApp" href="https://wa.me/616771010">
                 <ButtonOutline>Select</ButtonOutline>
+                </a>
               </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -155,34 +160,35 @@ const Pricing = () => {
                 />
               </div>
               <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                Premium Plan{" "}
+                Premium Plan 
               </p>
               <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                 <li className="relative check custom-list my-2">
-                  Unlimited Bandwitch
+                  Life time access
                 </li>
                 <li className="relative check custom-list my-2">
-                  Encrypted Connection
+                 Customer support
                 </li>
                 <li className="relative check custom-list my-2">
-                  No Traffic Logs
+                  daily buckup
                 </li>
                 <li className="relative check custom-list my-2">
                   Works on All Devices
                 </li>
                 <li className="relative check custom-list my-2">
-                  Connect Anyware{" "}
+                  Connect Anyware 
                 </li>
                 <li className="relative check custom-list my-2">
-                  Get New Features{" "}
+                  Get New Features 
                 </li>
               </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                 <p className="text-2xl text-black-600 text-center mb-4 ">
-                  $12 <span className="text-black-500">/ mo</span>
+                  $1799 <span className="text-black-500">/One time</span>
                 </p>
-
+                <a aria-label="Chat on WhatsApp" href="https://wa.me/616771010">
                 <ButtonOutline>Select</ButtonOutline>
+                </a>
               </div>
               </motion.div>
             </ScrollAnimationWrapper>

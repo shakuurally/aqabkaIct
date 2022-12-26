@@ -27,10 +27,12 @@ export default function Testimoni({}) {
             <div className="w-full px-4 md:w-1/2 lg:w-1/3">
               <div className="mb-8 rounded-[20px] hover:-mt-3 transition-all duration-300 bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
                 <div className="bg-primary mb-8 flex h-[70px] w-full items-center justify-center rounded-2xl">
-                
+                <div   className="text-[#14A800]  text-center mb-8 flex h-[70px] w-full  items-center justify-center rounded-2xl">
                   <SiCodeberg 
                                       className="text-[#14A800]  text-center mb-8 flex h-[70px] w-full  items-center justify-center rounded-2xl"
                   />
+                </div>
+                  
                 </div>
                 <h4 className="text-dark mb-3 text-xl font-semibold">
                   Graphic Design
@@ -44,10 +46,12 @@ export default function Testimoni({}) {
             <div className="w-full px-4 md:w-1/2 lg:w-1/3">
               <div className="mb-8 rounded-[20px] hover:-mt-3 transition-all duration-300 bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
                 <div className="bg-primary mb-8 flex h-[70px] w-full items-center justify-center rounded-2xl">
-                
+                <div   className="text-[#14A800]  text-center mb-8 flex h-[70px] w-full  items-center justify-center rounded-2xl">
+
                 <MdOutlineDesignServices 
                                       className="text-[#14A800]  text-center mb-8 flex h-[70px] w-full  items-center justify-center rounded-2xl"
                   />
+                </div>
                 </div>
                 <h4 className="text-dark mb-3 text-xl font-semibold">Web Design</h4>
                 <p className="text-body-color">
@@ -59,9 +63,12 @@ export default function Testimoni({}) {
             <div className="w-full px-4 md:w-1/2 lg:w-1/3">
               <div className="mb-8 rounded-[20px] hover:-mt-3 transition-all duration-300 bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
                 <div className="bg-primary mb-8 flex h-[70px] w-full items-center justify-center rounded-2xl">
+                <div   className="text-[#14A800]  text-center mb-8 flex h-[70px] w-full  items-center justify-center rounded-2xl">
+
                 <BsBookFill 
                                       className="text-[#14A800]  text-center mb-8 flex h-[70px] w-full  items-center justify-center rounded-2xl"
                   />
+                </div>
                 </div>
                 <h4 className="text-dark mb-3 text-xl font-semibold">
                   Online Courses
@@ -75,10 +82,12 @@ export default function Testimoni({}) {
             <div className="w-full px-4 md:w-1/2 lg:w-1/3">
               <div className="mb-8 rounded-[20px] hover:-mt-3 transition-all duration-300 bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
                 <div className="bg-primary mb-8 flex h-[70px] w-full items-center justify-center rounded-2xl">
-                  
+                <div   className="text-[#14A800]  text-center mb-8 flex h-[70px] w-full  items-center justify-center rounded-2xl">
+
                   <BsCameraVideo 
                                       className="text-[#14A800]  text-center mb-8 flex h-[70px] w-full  items-center justify-center rounded-2xl"
                   />
+                </div>
                 </div>
                 <h4 className="text-dark mb-3 text-xl font-semibold">Production</h4>
                 <p className="text-body-color">
@@ -90,8 +99,11 @@ export default function Testimoni({}) {
             <div className="w-full px-4 md:w-1/2 lg:w-1/3">
               <div className="mb-8 rounded-[20px] hover:-mt-3 transition-all duration-300 bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
                 <div className="bg-primary mb-8 flex h-[70px] w-full items-center justify-center rounded-2xl">
+                <div   className="text-[#14A800]  text-center mb-8 flex h-[70px] w-full  items-center justify-center rounded-2xl">
+
                 <FcAdvertising    className="text-[#14A800]  text-center mb-8 flex h-[70px] w-full  items-center justify-center rounded-2xl"
                   />
+                </div>
                 </div>
                 <h4 className="text-dark mb-3 text-xl font-semibold">
                   advertising agency 
@@ -105,9 +117,11 @@ export default function Testimoni({}) {
             <div className="w-full px-4 md:w-1/2 lg:w-1/3">
               <div className="mb-8 rounded-[20px] hover:-mt-3 transition-all duration-300 bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
                 <div className="bg-primary mb-8 flex h-[70px] w-full items-center justify-center rounded-2xl">
-                  
+                <div   className="text-[#14A800]  text-center mb-8 flex h-[70px] w-full  items-center justify-center rounded-2xl">
+
                   <BsCodeSlash    className="text-[#14A800]  text-center mb-8 flex h-[70px] w-full  items-center justify-center rounded-2xl"
                   />
+                </div>
                 </div>
                 <h4 className="text-dark mb-3 text-xl font-semibold">
                   Software Developement

@@ -5,6 +5,7 @@ import getScrollAnimation from "../../utils/getScrollAnimation";
 import Image from "next/image";
 import Notary from '../../public/assets/Notary.png'
 import School from '../../public/assets/Schoolsystem.png'
+import pos from '../../public/assets/pos.jpeg'
 import SeoHead from "../../components/SeoHead";
 function index() {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
@@ -31,13 +32,13 @@ function index() {
              
             
 
-            <a href="#" class="group shadow-lg p-1.5">
+            <a  class="group shadow-lg p-1.5">
               <div class="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8">
                 <Image
                   src={Notary}
                   layout="responsive"
               quality={100}
-              height={360}
+              height={300}
               loading="lazy"
 
               width={460}
@@ -53,10 +54,30 @@ function index() {
                 </button></a>
             </a>
 
-            <a href="#" class="group shadow-lg p-1.5">
+            <a  class="group shadow-lg p-1.5">
               <div class="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8">
                  <Image
                  src={School}
+                 layout="responsive"
+                 quality={100}
+                 height={300}
+                 width={460}
+                 loading="lazy"
+
+                 alt="Person using a pen to cross a task off a productivity paper card."
+                 class="h-full w-full hover:scale-125	 transition-all duration-500 ease-in-out transform  object-cover object-center group-hover:opacity-75"
+                 /> 
+              </div>
+              <h3 class="mt-4 text-sm text-gray-700">SCHOOL MANAGEMENT SYSTEM</h3>
+              <a aria-label="Chat on WhatsApp" href="https://wa.me/616771010">
+              <button className="font-medium tracking-wide py-2 px-5 sm:px-8 border border-orange-500 text-orange-500 bg-white-500 outline-none rounded-sm capitalize hover:bg-orange-500 hover:text-white-500 transition-all hover:shadow-orange w-full">
+                Order Now 
+                </button></a>
+            </a>
+            <a  class="group shadow-lg p-1.5">
+              <div class="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8">
+                 <Image
+                 src={pos}
                  layout="responsive"
                  quality={100}
                  height={360}
@@ -67,7 +88,7 @@ function index() {
                  class="h-full w-full hover:scale-125	 transition-all duration-500 ease-in-out transform  object-cover object-center group-hover:opacity-75"
                  /> 
               </div>
-              <h3 class="mt-4 text-sm text-gray-700">SCHOOL MANAGEMENT SYSTEM</h3>
+              <h3 class="mt-4 text-sm text-gray-700">POINT OF SALE SYSTEM</h3>
               <a aria-label="Chat on WhatsApp" href="https://wa.me/616771010">
               <button className="font-medium tracking-wide py-2 px-5 sm:px-8 border border-orange-500 text-orange-500 bg-white-500 outline-none rounded-sm capitalize hover:bg-orange-500 hover:text-white-500 transition-all hover:shadow-orange w-full">
                 Order Now 

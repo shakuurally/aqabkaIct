@@ -2,31 +2,31 @@ import {} from "@heroicons/react/outline";
 export default function Testimoni({}) {
   return (
     <>
-      <section class="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
-        <div class="container mx-auto">
-          <div class="-mx-4 flex flex-wrap">
-            <div class="w-full px-4">
-              <div class="mx-auto mb-12 max-w-[510px] text-center lg:mb-20">
-                <span class="text-primary mb-2 block text-lg font-semibold">
+      <section className="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
+        <div className="container mx-auto">
+          <div className="-mx-4 flex flex-wrap">
+            <div className="w-full px-4">
+              <div className="mx-auto mb-12 max-w-[510px] text-center lg:mb-20">
+                <span className="text-primary mb-2 block text-lg font-semibold">
                   Our Services
                 </span>
-                <h2 class="text-dark mb-4 text-3xl font-bold sm:text-4xl md:text-[40px]">
+                <h2 className="text-dark mb-4 text-3xl font-bold sm:text-4xl md:text-[40px]">
                   What We Offer
                 </h2>
-                <p class="text-body-color text-base">
+                <p className="text-body-color text-base">
                   There are many variations of passages of Lorem Ipsum available
                   but the majority have suffered alteration in some form.
                 </p>
               </div>
             </div>
           </div>
-          <div class="-mx-4 flex flex-wrap">
-            <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-              <div class="mb-8 rounded-[20px] hover:-mt-3 transition-all duration-300 bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
-                <div class="bg-primary mb-8 flex h-[70px] w-full items-center justify-center rounded-2xl">
+          <div className="-mx-4 flex flex-wrap">
+            <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+              <div className="mb-8 rounded-[20px] hover:-mt-3 transition-all duration-300 bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
+                <div className="bg-primary mb-8 flex h-[70px] w-full items-center justify-center rounded-2xl">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="text-[#14A800]  text-center mb-8 flex h-[70px] w-full  items-center justify-center rounded-2xl"
+                    className="text-[#14A800]  text-center mb-8 flex h-[70px] w-full  items-center justify-center rounded-2xl"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
@@ -44,25 +44,25 @@ export default function Testimoni({}) {
                     />
                   </svg>
                 </div>
-                <h4 class="text-dark mb-3 text-xl font-semibold">
+                <h4 className="text-dark mb-3 text-xl font-semibold">
                   Graphic Design
                 </h4>
-                <p class="text-body-color">
+                <p className="text-body-color">
                   We dejoy working with discerning clients, people for whom
                   qualuty, service, integrity & aesthetics.
                 </p>
               </div>
             </div>
-            <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-              <div class="mb-8 rounded-[20px] hover:-mt-3 transition-all duration-300 bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
-                <div class="bg-primary mb-8 flex h-[70px] w-full items-center justify-center rounded-2xl">
+            <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+              <div className="mb-8 rounded-[20px] hover:-mt-3 transition-all duration-300 bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
+                <div className="bg-primary mb-8 flex h-[70px] w-full items-center justify-center rounded-2xl">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}
                     stroke="currentColor"
-                    class="text-[#14A800]  text-center mb-8 flex h-[70px] w-full  items-center justify-center rounded-2xl"
+                    className="text-[#14A800]  text-center mb-8 flex h-[70px] w-full  items-center justify-center rounded-2xl"
                   >
                     <path
                       strokeLinecap="round"
@@ -71,23 +71,23 @@ export default function Testimoni({}) {
                     />
                   </svg>
                 </div>
-                <h4 class="text-dark mb-3 text-xl font-semibold">Web Design</h4>
-                <p class="text-body-color">
+                <h4 className="text-dark mb-3 text-xl font-semibold">Web Design</h4>
+                <p className="text-body-color">
                   We dejoy working with discerning clients, people for whom
                   qualuty, service, integrity & aesthetics.
                 </p>
               </div>
             </div>
-            <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-              <div class="mb-8 rounded-[20px] hover:-mt-3 transition-all duration-300 bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
-                <div class="bg-primary mb-8 flex h-[70px] w-full items-center justify-center rounded-2xl">
+            <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+              <div className="mb-8 rounded-[20px] hover:-mt-3 transition-all duration-300 bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
+                <div className="bg-primary mb-8 flex h-[70px] w-full items-center justify-center rounded-2xl">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}
                     stroke="currentColor"
-                    class="text-[#14A800]  text-center mb-8 flex h-[70px] w-full  items-center justify-center rounded-2xl"
+                    className="text-[#14A800]  text-center mb-8 flex h-[70px] w-full  items-center justify-center rounded-2xl"
                   >
                     <path
                       strokeLinecap="round"
@@ -96,25 +96,25 @@ export default function Testimoni({}) {
                     />
                   </svg>
                 </div>
-                <h4 class="text-dark mb-3 text-xl font-semibold">
+                <h4 className="text-dark mb-3 text-xl font-semibold">
                   Online Courses
                 </h4>
-                <p class="text-body-color">
+                <p className="text-body-color">
                   We dejoy working with discerning clients, people for whom
                   qualuty, service, integrity & aesthetics.
                 </p>
               </div>
             </div>
-            <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-              <div class="mb-8 rounded-[20px] hover:-mt-3 transition-all duration-300 bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
-                <div class="bg-primary mb-8 flex h-[70px] w-full items-center justify-center rounded-2xl">
+            <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+              <div className="mb-8 rounded-[20px] hover:-mt-3 transition-all duration-300 bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
+                <div className="bg-primary mb-8 flex h-[70px] w-full items-center justify-center rounded-2xl">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}
                     stroke="currentColor"
-                    class="text-[#14A800]  text-center mb-8 flex h-[70px] w-full  items-center justify-center rounded-2xl"
+                    className="text-[#14A800]  text-center mb-8 flex h-[70px] w-full  items-center justify-center rounded-2xl"
                   >
                     <path
                       strokeLinecap="round"
@@ -122,23 +122,23 @@ export default function Testimoni({}) {
                     />
                   </svg>
                 </div>
-                <h4 class="text-dark mb-3 text-xl font-semibold">Production</h4>
-                <p class="text-body-color">
+                <h4 className="text-dark mb-3 text-xl font-semibold">Production</h4>
+                <p className="text-body-color">
                   We dejoy working with discerning clients, people for whom
                   qualuty, service, integrity & aesthetics.
                 </p>
               </div>
             </div>
-            <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-              <div class="mb-8 rounded-[20px] hover:-mt-3 transition-all duration-300 bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
-                <div class="bg-primary mb-8 flex h-[70px] w-full items-center justify-center rounded-2xl">
+            <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+              <div className="mb-8 rounded-[20px] hover:-mt-3 transition-all duration-300 bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
+                <div className="bg-primary mb-8 flex h-[70px] w-full items-center justify-center rounded-2xl">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="currentColor"
-                    class="text-[#14A800]  text-center mb-8 flex h-[70px] w-full  items-center justify-center rounded-2xl"
+                    className="text-[#14A800]  text-center mb-8 flex h-[70px] w-full  items-center justify-center rounded-2xl"
                   >
                     <path
                       stroke-linecap="round"
@@ -147,25 +147,25 @@ export default function Testimoni({}) {
                     />
                   </svg>
                 </div>
-                <h4 class="text-dark mb-3 text-xl font-semibold">
+                <h4 className="text-dark mb-3 text-xl font-semibold">
                   advertising agency{" "}
                 </h4>
-                <p class="text-body-color">
+                <p className="text-body-color">
                   We dejoy working with discerning clients, people for whom
                   qualuty, service, integrity & aesthetics.
                 </p>
               </div>
             </div>
-            <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-              <div class="mb-8 rounded-[20px] hover:-mt-3 transition-all duration-300 bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
-                <div class="bg-primary mb-8 flex h-[70px] w-full items-center justify-center rounded-2xl">
+            <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+              <div className="mb-8 rounded-[20px] hover:-mt-3 transition-all duration-300 bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
+                <div className="bg-primary mb-8 flex h-[70px] w-full items-center justify-center rounded-2xl">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="currentColor"
-                    class="text-[#14A800]  text-center mb-8 flex h-[70px] w-full  items-center justify-center rounded-2xl"
+                    className="text-[#14A800]  text-center mb-8 flex h-[70px] w-full  items-center justify-center rounded-2xl"
                   >
                     <path
                       stroke-linecap="round"
@@ -174,10 +174,10 @@ export default function Testimoni({}) {
                     />
                   </svg>
                 </div>
-                <h4 class="text-dark mb-3 text-xl font-semibold">
+                <h4 className="text-dark mb-3 text-xl font-semibold">
                   Software Developement
                 </h4>
-                <p class="text-body-color">
+                <p className="text-body-color">
                   We dejoy working with discerning clients, people for whom
                   qualuty, service, integrity & aesthetics.
                 </p>

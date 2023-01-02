@@ -24,6 +24,15 @@ const Header = () => {
         (scrollActive ? " shadow-md pt-0" : " pt-4")
       }
     >
+<div class="bg-green-500 md:pl-10 flex md:items-center md:justify-center text-[15px] md:text-lg text-white space-x-10  text-center font-bold rounded-sm md:px-4 py-2">
+  <p>
+    Discount All of our products Order Know 15% Off, 12 Jan
+  </p>
+    <ButtonOutline className="ml-24 text-sm md:text-lg">
+              <a href="tel:+252616771010" className="truncate">Order Know</a>
+    </ButtonOutline>
+</div>
+
       <nav className="w-full  px-3 lg:px-24 bg-white shadow">
         <div className="flex items-center justify-between">
           {/* left */}
@@ -76,7 +85,7 @@ const Header = () => {
           {/* right */}
 
           {/* desktop menu */}
-          <div className=" items-center space-x-10 hidden md:flex">
+          <div className=" items-center p-4 space-x-10 hidden md:flex">
             <Link href="/">
               <a
                 className={

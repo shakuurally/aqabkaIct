@@ -27,12 +27,12 @@ export default function Testimoni({}) {
           <div className="-mx-4 space-y-10 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-1/3">
               <div className="mb-8 rounded-[20px] hover:-mt-3 transition-all duration-300 bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
-                <div className="bg-primary mb-8 flex h-[70px] w-full items-center justify-center rounded-2xl">
+                <div className="bg-primary mb-8 flex lg:mt-10 h-[70px] w-full items-center justify-center rounded-2xl">
                 <div   className="text-[#14A800]  text-center mb-8 flex h-[70px] w-full  items-center justify-center rounded-2xl">
                 <Image
                   src="/assets/Design.png"
-                  width={145}
-                  height={165}
+                  width={100}
+                  height={100}
                   alt="Standard Plan"
                   loading="lazy"
                 />
@@ -49,14 +49,15 @@ export default function Testimoni({}) {
                 </p>
               </div>
             </div>
+            
             <div className="w-full px-4 md:w-1/2 lg:w-1/3">
               <div className="mb-8 rounded-[20px] hover:-mt-3 transition-all duration-300 bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
                 <div className="bg-primary mb-8 flex h-[70px] w-full items-center justify-center rounded-2xl">
                 <div   className="text-[#14A800]  text-center mb-8 flex h-[70px] w-full  items-center justify-center rounded-2xl">
                 <Image
                   src="/assets/webDesign.png"
-                  width={145}
-                  height={165}
+                  width={100}
+                  height={100}
                   alt="Standard Plan"
                   loading="lazy"
                 />
@@ -76,8 +77,8 @@ export default function Testimoni({}) {
 
                 <Image
                   src="/assets/Courses.png"
-                  width={145}
-                  height={165}
+                  width={100}
+                  height={100}
                   alt="Standard Plan"
                   loading="lazy"
                 />
